@@ -6,7 +6,7 @@ class Queue
 
   def enqueue(el)
     self.queue.unshift(el)
-    queue
+    el
   end
 
   def dequeue
